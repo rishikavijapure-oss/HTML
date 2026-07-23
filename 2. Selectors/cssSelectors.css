@@ -1,0 +1,24 @@
+/*Elements in selectors*/
+/*p{
+    color:aqua;
+    background-color: antiquewhite;
+    */
+
+/*#rv{
+    color: brown;
+    text-align: center;
+}*/
+.pdf{
+    color:blueviolet;
+}
+.xy{
+    color: skyblue;
+}
+p.rv{
+    color: blue;
+}
+#pdf,#xy,#rv,#ab,#cd{
+    color: brown;
+    text-align: center;
+    text-decoration: double;
+}
