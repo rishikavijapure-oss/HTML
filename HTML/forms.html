@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in Html</title>
+</head>
+<body>
+    <h2>Forms in Html</h2>
+    <form action ="">
+        <label for =""> First name:</label>
+    <input id="First name" type="text" minlength="5" maxlength="20" required  />
+
+    <label for=""> Last Name:</label>
+    <input type="text" required />
+    <br><br>
+    <label for ="">Phone number:</label>
+    <input type="tel" required/>
+    <br>
+    <br>
+    <label for="">Email:</label>
+    <input type="text" required>
+    <br><br>
+    <label for="">Date of joinig</label>
+    <input type="Date" required>
+    <br><br>
+    <label for="">Password:</label>
+    <input type="password" required />
+    <br><br>
+    
+    <p>Select the known Language: </p>
+    <input type="checkbox" name="language" id="English" checked value="English" /> <label for ="">English</label>
+    <input type="checkbox" name="language" id="Kannada" value="Kannada" /> <label for ="">Kannada</label>
+    <input type="checkbox" name="language" id="Hindi" value="Hindi"/> <label for  ="">Hindi</label>
+    <br><br>
+    <p>Enter your shirt size: </p>
+    <input type="radio" name="shirtsize" id="small" checked value="small" /> <label for ="">Small</label>
+    <input type="radio" name="shirtsize" id="medium" value="medium" /> <label for ="">medium</label>
+    <input type="radio" name="shirtsize" id="Large" value="Large"/> <label for  ="">Large</label>
+     <br><br>
+     <label for="">Please select your shirt color </label>
+     <input type="color" value="" required/>
+     <br><br>
+     <label for="paymentoptiop"> Select payment method: </label>
+     <select name="payment" id="paymentoptiop" value=""> 
+    <option value=""</option>
+     <option value="Gpay">Gpay</option>
+     <option value="Phonepe">Phonepe</option>
+     <option value="amazonpay">amazonpay</option>
+     <option value="Cod">COD</option> </select>
+     <br><br>
+     <label for="cmts">Please enter your feedback:</label>
+     <textarea name="cmts" id="cmts" rows="20" cols="80" placeholder="please enter your feedbacks....." ></textarea>
+     <br> <br>
+     <input type="reset" />
+     <input type="submit" />
+     </form>
+</body>
+</html>
