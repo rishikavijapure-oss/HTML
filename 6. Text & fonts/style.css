@@ -1,0 +1,11 @@
+h1{
+    color: brown;
+    background-color: pink ;
+    text-decoration-style: double;
+}
+p{
+    text-align: justify;
+    text-decoration: overline;
+    text-decoration-style: dotted;
+    
+}
