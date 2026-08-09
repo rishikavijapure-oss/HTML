@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Smart Intern Match</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="logo" onclick="location.reload()">Smart Intern Match</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#jobs">Jobs</a></li>
+      </ul>
+      <div class="auth-buttons">
+        <button class="btn btn-login" onclick="openLoginModal()">Login</button>
+        <button class="btn btn-primary" onclick="openLoginModal()">Sign up</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <div class="hero-logo">🎯</div>
+      <h1>Find Your Perfect Career Match</h1>
+      <p>Take our AI-powered assessment and discover jobs that match your skills</p>
+      <button class="btn btn-primary" onclick="openLoginModal()">Start Assessment</button>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section class="features" id="features">
+    <div class="features-container">
+      <h2 class="section-title">Why Choose Smart Intern Match?</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🤖</div>
+          <h3>AI-Powered</h3>
+          <p>Advanced AI analyzes your skills and matches you with careers.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Fast & Easy</h3>
+          <p>Complete the assessment in 5 minutes and get instant results.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Detailed Analytics</h3>
+          <p>Get comprehensive reports about your strengths and opportunities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how-it-works">
+    <div class="how-it-works-container">
+      <h2 class="section-title">How It Works</h2>
+      <div class="steps-grid">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Login</h3>
+          <p>Create an account or login</p>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Quiz</h3>
+          <p>Complete the assessment</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>AI Analysis</h3>
+          <p>Get AI-powered insights</p>
+        </div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <h3>Matches</h3>
+          <p>Discover job opportunities</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS SECTION -->
+  <section class="stats">
+    <div class="stats-container">
+      <div>
+        <div class="stat-number">10K+</div>
+        <div class="stat-label">Active Users</div>
+      </div>
+      <div>
+        <div class="stat-number">500+</div>
+        <div class="stat-label">Companies</div>
+      </div>
+      <div>
+        <div class="stat-number">95%</div>
+        <div class="stat-label">Match Accuracy</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOBS SHOWCASE -->
+  <section class="jobs-showcase" id="jobs">
+    <div class="jobs-showcase-container">
+      <h2 class="section-title">Explore Job Opportunities</h2>
+      <div class="jobs-grid">
+        <div class="job-showcase-card">
+          <h4>TechCorp Solutions</h4>
+          <p>Build scalable backend systems with Python and Django. Experience in REST APIs and databases required. Work on high-impact projects in a collaborative environment.</p>
+        </div>
+        <div class="job-showcase-card">
+          <h4>DesignHub Creative</h4>
+          <p>Create beautiful and responsive user interfaces using React and Vue. Passionate about user experience and modern design patterns. Join our creative team of talented developers.</p>
+        </div>
+        <div class="job-showcase-card">
+          <h4>WebStudio Inc</h4>
+          <p>Build complete web applications from frontend to backend. Master modern tech stacks and work with cutting-edge frameworks. Grow your skills in a fast-paced startup environment.</p>
+        </div>
+        <div class="job-showcase-card">
+          <h4>CloudSystems Inc</h4>
+          <p>Manage infrastructure and CI/CD pipelines. Design scalable cloud solutions and improve system reliability. Work with Kubernetes and Docker in production environments.</p>
+        </div>
+        <div class="job-showcase-card">
+          <h4>DataViz Analytics</h4>
+          <p>Analyze complex datasets and build machine learning models. Create data visualizations and insights for business intelligence. Work with Python, R, and modern ML frameworks.</p>
+        </div>
+        <div class="job-showcase-card">
+          <h4>StartupXYZ Ventures</h4>
+          <p>Full stack development with modern technologies and agile methodologies. Own features from concept to production. Collaborate with product and design teams on innovative solutions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="cta">
+    <div class="cta-container">
+      <h2>Ready to Find Your Dream Job?</h2>
+      <p>Start your career assessment today and discover opportunities that align with your skills.</p>
+      <button class="btn btn-primary" onclick="openLoginModal()">Get Started</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Security</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Community</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Smart Intern Match. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- LOGIN MODAL -->
+  <div class="modal" id="loginModal">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeLoginModal()">✕</button>
+      <h2>Login to Your Account</h2>
+      <div class="form-group">
+        <input type="text" id="loginUsername" placeholder="Username" value="admin">
+      </div>
+      <div class="form-group">
+        <input type="password" id="loginPassword" placeholder="Password" value="1234">
+      </div>
+      <div class="error" id="loginError"></div>
+      <button class="btn btn-primary" style="width: 100%; margin-top: 20px;" onclick="login()">Login</button>
+      <p style="text-align: center; margin-top: 15px; color: #666; font-size: 12px;">
+        Demo: admin / 1234
+      </p>
+    </div>
+  </div>
+
+  <!-- QUIZ PAGE -->
+  <div id="quizPage" style="display: none;">
+    <div class="quiz-container">
+      <div class="quiz-header">
+        <div style="font-weight: 600; margin-bottom: 10px;" id="qNo">Question 1 / 6</div>
+        <div class="quiz-progress-bar">
+          <div class="quiz-progress-fill" id="progressFill"></div>
+        </div>
+      </div>
+
+      <div class="question-category" id="categoryTag">PYTHON</div>
+      <div class="question-text" id="question" onmousedown="return false" ondragstart="return false" oncontextmenu="return false">Question text</div>
+      
+      <input 
+        type="text" 
+        class="answer-input" 
+        id="answer" 
+        placeholder="Your answer..."
+        onpaste="return false"
+        oncopy="return false"
+        oncut="return false"
+        oncontextmenu="return false"
+      >
+      
+      <button class="btn btn-primary" style="width: 100%;" onclick="next()">Next Question</button>
+    </div>
+  </div>
+
+  <!-- RESULTS PAGE -->
+  <div id="resultsPage" style="display: none;">
+    <div class="results-container">
+      <div class="results-emoji" id="resultEmoji">🏆</div>
+      <h1 class="results-title" id="resultTitle">Assessment Complete</h1>
+      <p class="results-subtitle" id="resultSubtitle">Based on your answers...</p>
+
+      <div class="score-cards">
+        <div class="score-card">
+          <div class="score-label">🐍 Python</div>
+          <div class="score-value" id="pythonValue">0%</div>
+        </div>
+        <div class="score-card">
+          <div class="score-label">🌐 Web Dev</div>
+          <div class="score-value" id="webValue">0%</div>
+        </div>
+      </div>
+
+      <p style="color: #999; margin-top: 20px;">Finding your perfect job matches...</p>
+    </div>
+  </div>
+
+  <!-- MATCHES PAGE -->
+  <div id="matchesPage" style="display: none;">
+    <div class="matches-container">
+      <div class="matches-header">
+        <h2 class="matches-title" id="matchesTitle">Perfect Job Matches</h2>
+        <p class="matches-subtitle" id="matchesSubtitle">Based on your assessment results</p>
+      </div>
+
+      <div class="match-cards" id="matchCards"></div>
+
+      <button class="btn btn-primary back-home-btn" style="width: 100%;" onclick="location.reload()">Back to Home</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

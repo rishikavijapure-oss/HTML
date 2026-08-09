@@ -1,0 +1,8 @@
+main{
+    border: 7px solid rgb(142, 8, 8) ;
+    width: 70vw;
+}
+article{
+    border: 3px dotted black;
+    width: 70vw;
+}
