@@ -1,0 +1,40 @@
+.container{
+background-color: blanchedalmond;
+width: 500px;
+height: 500px;
+}
+
+.box{
+    color: black;
+    width: 100px;
+    height: 100px;
+    
+}
+ 
+.s{
+    background-color: aqua;
+    position: static;
+}
+.R{
+    background-color:aquamarine;
+    position: relative;
+}
+.A{
+    background-color:lightcoral;
+    position:absolute;
+    bottom:0;
+    right: 0;
+
+}
+.F{
+    background-color: lightgreen;
+    position: fixed;
+
+}
+.S{
+    background-color: lightslategray;
+    position:sticky;
+    top:0;
+    
+
+}
